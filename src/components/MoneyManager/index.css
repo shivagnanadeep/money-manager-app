@@ -1,0 +1,62 @@
+.money-manager-container {
+	margin: 0px;
+	padding: 20px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	row-gap: 35px;
+}
+.money-manager-container-head {
+	background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+	background-size: cover;
+	padding: 20px;
+	border-radius: 20px;
+}
+.money-manager-left {
+	width: 35%;
+	border: 1px solid gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	row-gap: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+label {
+	display: flex;
+	flex-direction: column;
+}
+.money-manager-container-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	column-gap: 20px;
+}
+.money-manager-right {
+	width: 60%;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 10px;
+}
+h1 {
+	font-size: 20px;
+}
+.history-list {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+}
+.history-item-head {
+	width: 95%;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	column-gap: 20px;
+	border: 1px solid gray;
+	padding: 0px;
+}

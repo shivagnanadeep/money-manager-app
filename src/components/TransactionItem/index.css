@@ -1,0 +1,20 @@
+.history-item {
+	width: 95%;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	column-gap: 10px;
+	border: 1px solid gray;
+	border-top: none;
+	padding: 0px;
+}
+.button {
+	outline: none;
+	border: none;
+	background-color: transparent;
+}
+.delete-icon {
+	height: 20px;
+}
